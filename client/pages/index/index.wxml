@@ -1,0 +1,6 @@
+<!--pages/index/index.wxml-->
+<text>
+  <view class='container'>
+    <view>sousuo<icon class='iconfont icon-search'></icon></view>
+  </view>
+</text>

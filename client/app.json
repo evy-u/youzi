@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#F2F6F7",
+    "navigationBarBackgroundColor": "#56AAFF",
+    "navigationBarTitleText": "日记簿",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar":{
+    "color":"#ADB1B2",
+    "backgroundColor": "#CCEDF9",
+    "position":"bottom",
+    "borderStyle":"white",
+    "selectedColor": "#096182",
+    "list":[
+      {
+        "text":"日记",
+        "pagePath":"pages/index/index",
+        "iconPath":"/static/images/pencil.png",
+        "selectedIconPath": "/static/images/_pencil.png"
+      },
+      {
+        "text": "相册",
+        "pagePath": "pages/logs/logs",
+        "iconPath": "/static/images/photo.png",
+        "selectedIconPath": "/static/images/_photo.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/static/images/wode.png",
+        "selectedIconPath": "/static/images/_wode.png"
+      }
+    ]
+  }
+}

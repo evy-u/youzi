@@ -1,1 +1,9 @@
-@import "/static/font/iconfont"
+@import "/static/font/iconfont";
+view,input,page,text{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+app{
+  height: 100%;
+}

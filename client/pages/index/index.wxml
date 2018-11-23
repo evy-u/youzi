@@ -1,6 +1,4 @@
 <!--pages/index/index.wxml-->
-<text>
-  <view class='container'>
-    <view>sousuo<icon class='iconfont icon-search'></icon></view>
-  </view>
-</text>
+<view class='container'>
+  <input placeholder='搜 索' class='search' bindfocus='searchFocus'><i class="icon iconfont icon-search"></i></input>
+</view>

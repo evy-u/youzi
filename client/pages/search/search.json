@@ -2,7 +2,7 @@
   "backgroundTextStyle": "dark",
   "backgroundColor": "#F2F6F7",
   "navigationBarBackgroundColor": "#56AAFF",
-  "navigationBarTitleText": "日记簿",
+  "navigationBarTitleText": "搜索",
   "navigationBarTextStyle": "white",
   "enablePullDownRefresh": true
 }

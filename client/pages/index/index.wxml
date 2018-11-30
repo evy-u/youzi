@@ -1,4 +1,50 @@
 <!--pages/index/index.wxml-->
 <view class='container'>
   <input placeholder='搜 索' class='search' bindfocus='searchFocus'><i class="icon iconfont icon-search"></i></input>
+  <view class='nav'>
+    <navigator class='nav-item' url='index'>
+      <i class="icon iconfont icon-shijianzhou"></i>
+      <text>时间轴</text>
+    </navigator>
+    <navigator class='nav-item' url='index'>
+      <i class="icon iconfont icon-rili"></i>
+      <text>日历</text>
+    </navigator>
+    <navigator class='nav-item' url='index'>
+      <i class="icon iconfont icon-yumaobi"></i>
+      <text>写日记</text>
+    </navigator>
+  </view>
+  <view class='notes'>
+    <view class='note-item'>
+      <view class='header'>
+        <text class='week'>星期五</text>
+        <text class='date'>2018年11月30日</text>
+      </view>
+      <view class='content'>
+        很羡慕这样子笑的你
+      </view>
+      <view class='note-image'>
+        <image src='/static/images/pencil.png'></image>
+      </view>
+      <view class='footer'>
+        北坞嘉园北小街
+      </view>
+    </view>
+    <view class='note-item'>
+      <view class='header'>
+        <text class='week'>星期五</text>
+        <text class='date'>2018年11月30日</text>
+      </view>
+      <view class='content'>
+        很羡慕这样子笑的你
+      </view>
+      <view class='note-image'>
+        <image src='/static/images/pencil.png'></image>
+      </view>
+      <view class='footer'>
+        北坞嘉园北小街
+      </view>
+    </view>
+  </view>
 </view>

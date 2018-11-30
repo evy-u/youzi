@@ -1,21 +1,16 @@
 /* pages/index/index.wxss */
-page{
-  width: 100%;
-  height: 100%;
-  background: rgb(240, 240, 240);
-  font-size: 24rpx;
-}
 .container{
   height: 100%;
-  width: 94%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
 .search{
-  width: 100%;
+  width: 96%;
   height: 64rpx;
-  margin: 20rpx 0;
+  display: block;
+  margin: 20rpx auto;
   background: #fff;
   text-align: center;
   position: relative;
@@ -24,9 +19,92 @@ page{
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -60rpx;
+  margin-left: -80rpx;
   margin-top: -10rpx;
   z-index: 999;
   font-size: 20rpx
 }
-
+.nav{
+  width: 100%;
+  height: 160rpx;
+  padding: 0 20rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20rpx;
+  background: #fff;
+}
+.nav .nav-item{
+  display: flex;
+  flex-direction: column;
+  height: 90rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item .icon{
+  font-size: 40rpx;
+}
+.nav-item:nth-of-type(1) .icon{
+  color: rgb(3, 128, 34)
+}
+.nav-item:nth-of-type(2) .icon{
+  color: rgb(241, 132, 8)
+}
+.nav-item:nth-of-type(3) .icon{
+  color: rgb(3, 95, 156)
+}
+.nav-item text{
+  color: #1296db;
+}
+.notes{
+  width: 100%;
+  padding: 0 20rpx;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-y: scroll;
+}
+.note-item{
+  margin: 20rpx 10rpx 0 10rpx;
+}
+.note-item::after{
+  content: ' ';
+  display: block;
+  height: 8rpx;
+  width: 100%;
+  background: rgb(240, 240, 240);
+}
+.note-item .header{
+  font-size: 26rpx;
+}
+.note-item .header .week{
+  padding: 4rpx 10rpx;
+  background: rgb(52, 223, 103);
+  color: #fff;
+  border-radius: 6rpx;
+  margin-right: 10rpx;
+}
+.note-item .header .date{
+  letter-spacing: 2rpx;
+}
+.note-item .content{
+  padding: 30rpx 0;
+  color: #666;
+}
+.note-item .note-image{
+  width: 100%;
+  height: 280rpx;
+  overflow: hidden;
+  border-radius: 20rpx;
+}
+.note-item .note-image image{
+  width: 100%;
+}
+.note-item .footer{
+  margin-bottom: 30rpx;
+  text-align: right;
+  line-height: 80rpx;
+  color: rgb(177, 174, 174);
+  border-bottom: 1px solid rgb(247, 246, 246);
+}
